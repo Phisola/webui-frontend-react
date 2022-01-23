@@ -1,0 +1,31 @@
+.meta-container{
+    border-top:3px solid darkgrey;
+}
+.meta-table > thead > tr > th:first-child{
+    width:27%;
+}
+.meta-table-container > div:first-child{
+    height: 170px;;
+}
+.meta-button-group{
+    width:100%;
+    display: flex;
+    padding-top:10px;
+}
+.meta-upload{
+    margin:auto;
+    padding: 7px 30px;
+    border:none;
+    color: white;
+    border-radius: 5px;
+    background-color: seagreen;
+    font-weight: bold;
+}
+.modal-90w{
+    width: 90%;
+    max-width: none!important;
+}
+.modal-body{
+    max-height: 77vh;
+    overflow: auto;
+}

@@ -1,0 +1,25 @@
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border-right: 2px solid darkgrey
+}
+.image-header{
+    border-bottom:1px solid darkgrey;
+    background-color: lightskyblue;
+    width:100%;
+    padding: 3px 30px;
+    font-weight: bold;
+}
+.image-container > div > img{
+    width: 100%;
+}
+.image-image-container{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    align-self: center;
+
+}
+

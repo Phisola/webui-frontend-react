@@ -1,0 +1,35 @@
+ul{
+    margin:0;
+}
+.upload{
+    display: flex;
+    width: 100%;
+    border-bottom:3px solid darkgrey;
+}
+.upload-left{
+    width: 50%;
+    margin-left:30px;
+}
+.upload-right{
+    display: flex;
+    align-self: center;
+    margin-right:30px;
+}
+.upload-choose{
+    padding:5px 30px;
+}
+.upload-choose#file-upload-button{
+    padding:5px 30px;
+}
+.upload-file-name{
+    margin-left:20px;
+}
+.upload-next{
+    background: green;
+    color:white;
+    border-radius: 5px;
+    padding:5px 30px;
+    height:100%;
+    border:none;
+    font-weight: bold;
+}

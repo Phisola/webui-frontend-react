@@ -1,0 +1,36 @@
+{
+    "Temperatures": [
+        {"values": ""},
+
+        {"values": "RT"},
+
+        {"values": "4°C"},
+
+        {"values": "Other"}
+    ],
+    "Run buffer": [
+        {"values": ""},
+
+        {"values": "DPBS-1X"},
+
+        {"values": "10mM Histidine pH6 150mM NaCl"},
+
+        {"values": "10mM Sodium Acetate pH 5.0"},
+
+        {"values": "10 mM Sodium Phosphate pH 8.0"},
+        
+        {"values": "Other"}
+    ],
+    "Coulmn (for Purification)": [
+        {"values": ""},
+
+        {"values": "SEC Superdex 16/60"},
+
+        {"values": "SEC Superdex 26/60"},
+        
+        {"values": "SEC Superdex 26/90"},
+
+        {"values": "Other"}
+    ]
+  
+}

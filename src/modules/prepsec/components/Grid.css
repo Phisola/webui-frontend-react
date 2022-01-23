@@ -1,0 +1,49 @@
+.grid-container{
+    width: 70%;
+    height: 82vh;
+    flex-direction: column;
+}
+.grid-header{
+    border-bottom:1px solid darkgrey;
+    background-color: lightskyblue;
+    width:100%;
+    padding: 3px 30px;
+    font-weight: bold;
+}
+.grid-button-group{
+    display: flex;
+    align-self: center;
+    padding-bottom:10px;
+}
+.grid-button-group > button{
+    padding: 7px 30px;
+    margin: 0px 30px;
+    border:none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.grid-reset{
+    background-color: tomato;
+}
+.grid-set{
+    background-color: skyblue;
+}
+ .table-responsive{
+    overflow-y: auto;
+}
+.grid-stack{
+    align-self: center;
+}
+.grid-stack> div:first-child{
+    height:calc(82vh - 100px);
+}
+.grid-namevalue{
+    background:none;
+    border:none;
+    width: 100%;
+}
+.spinner-grow{
+    margin: auto;
+    display: flex;
+}

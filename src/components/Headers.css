@@ -1,0 +1,28 @@
+.header-container > .bg-light{
+    /* background-color: lightgoldenrodyellow !important; */
+    background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(245, 223, 179) 100%);
+    border-style: groove;
+
+}
+
+.logo{
+   height: 40px;
+   margin-right: 20px;
+}
+.form-control{
+    height: 25px;
+
+}
+.homeButton{
+   height:25px;
+   padding-bottom: 0.4rem;
+}
+.searchIcon{
+   height: 20px;
+}
+/* .d-flex{
+    font-family: "Nunito", sans-serif;
+    align-items: center;
+    height: 7vh;
+    width: 39vw;
+} */

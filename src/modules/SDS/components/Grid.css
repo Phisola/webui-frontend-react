@@ -1,0 +1,100 @@
+.grid-container{
+    width: 70%;
+    height: 82vh;
+    flex-direction: column;
+    
+}
+.grid-headerss{
+    border-bottom:1px solid darkgrey;
+    background-color: lightskyblue;
+    width:100%;
+    /* padding: 3px 30px; */
+    padding-left: 18rem;
+    font-weight: bold;
+}
+.grid-button-group{
+    display: flex;
+    align-self: center;
+    padding-bottom:10px;
+}
+.grid-button-group > button{
+    padding: 7px 30px;
+    margin: 0px 30px;
+    border:none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.grid-reset{
+    background-color: tomato;
+}
+.grid-sets{
+    background-color: rgb(52, 165, 37);
+    
+}
+.grid-s{
+    background-color: rgb(165, 114, 37);
+    padding: 7px 30px;
+    /* margin: 0px 30px; */
+    border:none;
+    color: white;
+    border-radius: 5px;
+
+}
+.gridss{
+    /* padding: 7px 30px;
+    margin: 0px 30px; */
+    border:none!important;
+    color: rgb(103, 71, 155)!important;
+    /* border-radius: 5px!important; */
+    background-color: lightskyblue!important;
+    text-decoration: none!important;
+}
+.grid-se{
+    background-color: rgb(37, 146, 165);
+    padding: 7px 30px;
+    /* margin: 0px 10px; */
+    border:none;
+    color: white;
+    border-radius: 5px;
+
+}
+ .table-responsive{
+    overflow-y: auto;
+}
+.grid-stack{
+    align-self: center;
+}
+.grid-stack> div:first-child{
+    height:calc(82vh - 100px);
+}
+.grid-namevalue{
+    background:none;
+    border:none;
+    width: 100%;
+}
+.spinner-grow{
+    margin: auto;
+    display: flex;
+}
+.nav-tabs .nav-link {
+    margin-bottom: -1px;
+    background: 0 0;
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    background-color: white;
+    color:black;
+    /* padding-top: 0px;
+    height: 10px; */
+    height: 100%;
+    font-weight: bolder;
+    
+
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #eff2f5;
+    background-color: tomato;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
